@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12507080658,
+              "duration": 3045070114,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "line": 5,
+        "line": 6,
         "name": "The user enters home page and fills correct user information after login to system",
         "description": "",
         "id": "user-login-to-system-successfully;the-user-enters-home-page-and-fills-correct-user-information-after-login-to-system",
@@ -33,10 +33,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6377419745,
+              "duration": 2427316742,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user clicks sign button and after clicks sign item",
             "match": {
               "location": "LoginStep.userClicksSignButtonAndAfterClicksSignItem()"
@@ -45,10 +45,10 @@
           },
           {
             "result": {
-              "duration": 325882910,
+              "duration": 335902244,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "user fills user email and password",
             "match": {
               "location": "LoginStep.userFillsUserEmailAndPassword()"
@@ -57,15 +57,94 @@
           },
           {
             "result": {
-              "duration": 1366139140,
+              "duration": 1306643755,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "user clicks sign in button and it display close icon",
             "match": {
               "location": "LoginStep.userClicksSignInButtonAndItDisplayCloseIcon()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2343856383,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is at landing page for the login process",
+            "match": {
+              "location": "LoginStep.userIsAtLandingPageForTheLoginProcess()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "The user change language and sees to change all pages",
+        "description": "",
+        "id": "user-login-to-system-successfully;the-user-change-language-and-sees-to-change-all-pages",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2830846356,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks sign in area and choose to sign in item",
+            "match": {
+              "location": "LoginStep.userClicksSignInAreaAndChooseToSignInItem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106439722,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user fills correct email and wrong password",
+            "match": {
+              "location": "LoginStep.userFillsCorrectEmailAndWrongPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 819358207,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user display to open modal",
+            "match": {
+              "location": "LoginStep.userDisplayToOpenModal()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@wrongpassword"
           }
         ]
       }

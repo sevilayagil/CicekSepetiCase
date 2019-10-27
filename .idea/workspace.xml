@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="984424a3-1f30-4a3b-9bf0-b11af35adf09" name="Default Changelist" comment="" />
+    <list default="true" id="984424a3-1f30-4a3b-9bf0-b11af35adf09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/LoginPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/LoginPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scenarios/base/StepManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scenarios/base/StepManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scenarios/testcases/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scenarios/testcases/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-json-report/cucumber-json.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-json-report/cucumber-json.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +28,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Shv2SsQ01WLAHsKunc3eZXi6M6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -80,5 +96,16 @@
       <updated>1572028434804</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

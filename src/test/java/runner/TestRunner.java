@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
                 features = {"src/test/resources/Login.feature"},
 
-                glue = "scenarios/testcases")
+                glue = "scenarios/testcases",tags = {"@login,@wrongpassword"})
 
 public class TestRunner {
 }

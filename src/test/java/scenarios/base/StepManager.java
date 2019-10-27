@@ -11,12 +11,14 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Random;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 public class StepManager {
     public WebDriver driver;
     public User user;
+    protected Random randomGenerator;
     protected void set_timeOutValue(int timeOutValue) {
         this._baseTimeOutValue = timeOutValue;
     }

@@ -22,29 +22,35 @@ formatter.match({
   "location": "LoginStep.userIsAtLandingPageForTheLoginProcess()"
 });
 formatter.result({
-  "duration": 12507080658,
+  "duration": 3045070114,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 5,
+  "line": 6,
   "name": "The user enters home page and fills correct user information after login to system",
   "description": "",
   "id": "user-login-to-system-successfully;the-user-enters-home-page-and-fills-correct-user-information-after-login-to-system",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 5,
+      "name": "@login"
+    }
+  ]
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "user clicks sign button and after clicks sign item",
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "user fills user email and password",
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "user clicks sign in button and it display close icon",
   "keyword": "Then "
 });
@@ -52,21 +58,90 @@ formatter.match({
   "location": "LoginStep.userClicksSignButtonAndAfterClicksSignItem()"
 });
 formatter.result({
-  "duration": 6377419745,
+  "duration": 2427316742,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.userFillsUserEmailAndPassword()"
 });
 formatter.result({
-  "duration": 325882910,
+  "duration": 335902244,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.userClicksSignInButtonAndItDisplayCloseIcon()"
 });
 formatter.result({
-  "duration": 1366139140,
+  "duration": 1306643755,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "user is at landing page for the login process",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginStep.userIsAtLandingPageForTheLoginProcess()"
+});
+formatter.result({
+  "duration": 2343856383,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 11,
+  "name": "The user change language and sees to change all pages",
+  "description": "",
+  "id": "user-login-to-system-successfully;the-user-change-language-and-sees-to-change-all-pages",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 10,
+      "name": "@wrongpassword"
+    }
+  ]
+});
+formatter.step({
+  "line": 12,
+  "name": "user clicks sign in area and choose to sign in item",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "user fills correct email and wrong password",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "user display to open modal",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginStep.userClicksSignInAreaAndChooseToSignInItem()"
+});
+formatter.result({
+  "duration": 2830846356,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStep.userFillsCorrectEmailAndWrongPassword()"
+});
+formatter.result({
+  "duration": 106439722,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStep.userDisplayToOpenModal()"
+});
+formatter.result({
+  "duration": 819358207,
   "status": "passed"
 });
 });

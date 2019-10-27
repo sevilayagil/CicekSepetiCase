@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import pageobjects.LoginPageObjects;
 import scenarios.base.StepManager;
 
+import java.sql.Driver;
+
 public class LoginStep extends StepManager {
     private LoginPageObjects loginPage;
     public LoginStep() {
@@ -40,5 +42,26 @@ public class LoginStep extends StepManager {
     public void userClicksSignInButtonAndItDisplayCloseIcon() {
         elementClick(loginPage.SignInButton);
         getElement(loginPage.IconClose).isDisplayed();
+        driver.quit();
+    }
+
+    @When("^user clicks sign in area and choose to sign in item$")
+    public void userClicksSignInAreaAndChooseToSignInItem() {
+        elementClick(loginPage.home);
+        elementClick(loginPage.SignInIcon);
+        elementClick(loginPage.SignItem);
+        getElement(loginPage.EmailTextBox).sendKeys(user.getUserName());
+        getElement(loginPage.PasswordTextBox).sendKeys("aks");
+    }
+
+    @And("^user fills correct email and wrong password$")
+    public void userFillsCorrectEmailAndWrongPassword() {
+        elementClick(loginPage.SignInButton);
+    }
+
+    @Then("^user display to open modal$")
+    public void userDisplayToOpenModal() {
+        getElement(loginPage.userpageheaderlan).isDisplayed();
+        driver.quit();
     }
 }
