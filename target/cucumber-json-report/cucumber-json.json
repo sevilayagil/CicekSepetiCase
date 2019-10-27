@@ -1,0 +1,79 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12507080658,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is at landing page for the login process",
+            "match": {
+              "location": "LoginStep.userIsAtLandingPageForTheLoginProcess()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "The user enters home page and fills correct user information after login to system",
+        "description": "",
+        "id": "user-login-to-system-successfully;the-user-enters-home-page-and-fills-correct-user-information-after-login-to-system",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6377419745,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks sign button and after clicks sign item",
+            "match": {
+              "location": "LoginStep.userClicksSignButtonAndAfterClicksSignItem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 325882910,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fills user email and password",
+            "match": {
+              "location": "LoginStep.userFillsUserEmailAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1366139140,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks sign in button and it display close icon",
+            "match": {
+              "location": "LoginStep.userClicksSignInButtonAndItDisplayCloseIcon()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User login to system successfully",
+    "description": "",
+    "id": "user-login-to-system-successfully",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login.feature"
+  }
+]
