@@ -8,8 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 import pageobjects.LoginPageObjects;
 import scenarios.base.StepManager;
 
-import java.sql.Driver;
-
 public class LoginStep extends StepManager {
     private LoginPageObjects loginPage;
     public LoginStep() {
@@ -18,7 +16,6 @@ public class LoginStep extends StepManager {
         set_timeOutValue(10);
 
     }
-
     @Given("^user is at landing page for the login process$")
     public void userIsAtLandingPageForTheLoginProcess() {
         getUrl();

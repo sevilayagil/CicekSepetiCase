@@ -22,7 +22,7 @@ formatter.match({
   "location": "LoginStep.userIsAtLandingPageForTheLoginProcess()"
 });
 formatter.result({
-  "duration": 3045070114,
+  "duration": 2853999037,
   "status": "passed"
 });
 formatter.scenario({
@@ -58,21 +58,21 @@ formatter.match({
   "location": "LoginStep.userClicksSignButtonAndAfterClicksSignItem()"
 });
 formatter.result({
-  "duration": 2427316742,
+  "duration": 2034404839,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.userFillsUserEmailAndPassword()"
 });
 formatter.result({
-  "duration": 335902244,
+  "duration": 323895374,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.userClicksSignInButtonAndItDisplayCloseIcon()"
 });
 formatter.result({
-  "duration": 1306643755,
+  "duration": 1249071004,
   "status": "passed"
 });
 formatter.background({
@@ -91,7 +91,7 @@ formatter.match({
   "location": "LoginStep.userIsAtLandingPageForTheLoginProcess()"
 });
 formatter.result({
-  "duration": 2343856383,
+  "duration": 2000022563,
   "status": "passed"
 });
 formatter.scenario({
@@ -127,21 +127,21 @@ formatter.match({
   "location": "LoginStep.userClicksSignInAreaAndChooseToSignInItem()"
 });
 formatter.result({
-  "duration": 2830846356,
+  "duration": 2593443190,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.userFillsCorrectEmailAndWrongPassword()"
 });
 formatter.result({
-  "duration": 106439722,
+  "duration": 120744408,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.userDisplayToOpenModal()"
 });
 formatter.result({
-  "duration": 819358207,
+  "duration": 767918125,
   "status": "passed"
 });
 });
