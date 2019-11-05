@@ -66,8 +66,6 @@ public class StepManager {
 
     protected void getUrl() {
         driver.get("https://www.lolaflora.com/en-es/");
-
-
     }
 
     protected void elementClick(WebElement element, TimeOut... timeOuts) {

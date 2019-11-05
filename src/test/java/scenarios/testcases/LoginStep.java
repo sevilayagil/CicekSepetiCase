@@ -58,7 +58,7 @@ public class LoginStep extends StepManager {
 
     @Then("^user display to open modal$")
     public void userDisplayToOpenModal() {
-        getElement(loginPage.userpageheaderlan).isDisplayed();
+        getElement(loginPage.UserPageHeaderLan).isDisplayed();
         driver.quit();
     }
 }
