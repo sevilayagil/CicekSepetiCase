@@ -25,8 +25,8 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-/src/test/java/screenshot/
-/target/
-/src/test/resources/chromedriver
-/src/test/resources/chromedriver.exe
-/src/test/java/scenarios/base/User.java
+.gitignore/src/test/java/screenshot/
+.gitignore/target/
+.gitignore/src/test/resources/chromedriver
+.gitignore/src/test/resources/chromedriver.exe
+.gitignore/src/test/java/scenarios/base/User.java
